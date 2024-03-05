@@ -1,0 +1,106 @@
+
+    body{
+        background-color: #4d628e;
+        text-align: center;
+    }
+    @font-face {
+        font-family: poppins;
+        src: url(text-style/BungeeSpice-Regular.ttf);
+    }
+    .poppins{
+        font-family: poppins;
+        font-size: 25px;
+        color: orange;
+        text-shadow: 3px 5px 2px 1.5px black;
+        cursor: pointer;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    height: 70vmin;
+    display: flex;
+    
+}
+#newbtn{
+    padding: .5rem;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    background-color: #99188b;
+    color: white;
+}
+#newbtn:hover{
+    background-color: #4f0a3a;
+    box-shadow: 1px 0px 2px 1px rgb(53, 11, 11);
+}
+.game{
+    height: 60vmin;
+    
+   
+   width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 5px 3px 5px;
+  flex-direction: column; 
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 2px 1px black;
+    font-size: 3rem;
+    background-color:#7f1032;
+    color: #0b0b0b;
+}
+#reset{
+    padding: .5rem;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    background-color: #99188b;
+    color: white;
+}
+#reset:hover{
+    background-color: #4f0a3a;
+    box-shadow: 1px 0px 2px 1px rgb(53, 11, 11);
+}
+.win{
+    color: white;
+    font-size: 2rem;
+
+}
+.hide{
+    display: none;
+}
+@media only screen and (min-width: 150px) and (max-width: 505px) {
+    .box
+    {
+        height:16vmin;
+        width: 16vmin;
+        margin: 4px;
+        border-radius: 7px;
+        box-shadow: 2px 1px 1.5px 1px black;
+        font-size: 1.5rem;
+        background-color:#7f1032;
+        color: #0b0b0b;
+    }
+    
+    body{
+        background-color: #4d628e;
+        text-align: center;
+    }
+    #reset{
+        padding: .4rem;
+        font-size: 1rem;
+        border-radius: 4px;
+        background-color: #99188b;
+        color: white;
+    }
+    #newbtn{
+        padding: .4rem;
+        font-size: 1rem;
+        border-radius: 4px;
+        background-color: #99188b;
+        color: white;
+    }
+}
